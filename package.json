@@ -1,0 +1,24 @@
+{
+  "name": "css-react-spinners",
+  "version": "1.0.0",
+  "description": "CSS-only spinners for react",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gsonly/css-react-spinners.git"
+  },
+  "keywords": [
+    "react",
+    "css",
+    "spinners"
+  ],
+  "author": "Gladson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gsonly/css-react-spinners/issues"
+  },
+  "homepage": "https://github.com/gsonly/css-react-spinners#readme"
+}
