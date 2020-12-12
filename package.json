@@ -4,8 +4,11 @@
   "description": "CSS-only spinners for react",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint **/*.js",
+    "lint:fix": "prettier-eslint \"$PWD/**/*.js\" --write"
   },
+  "prettier": "prettier-config-standard",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/gsonly/css-react-spinners.git"
@@ -20,5 +23,15 @@
   "bugs": {
     "url": "https://github.com/gsonly/css-react-spinners/issues"
   },
-  "homepage": "https://github.com/gsonly/css-react-spinners#readme"
+  "homepage": "https://github.com/gsonly/css-react-spinners#readme",
+  "devDependencies": {
+    "eslint": "^7.15.0",
+    "eslint-config-standard": "^16.0.2",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "prettier-config-standard": "^1.0.1",
+    "prettier-eslint": "^12.0.0",
+    "prettier-eslint-cli": "^5.0.0"
+  }
 }
