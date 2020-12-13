@@ -10,12 +10,14 @@
     "lint": "eslint **/*.js",
     "lint:fix": "prettier-eslint \"$PWD/**/*.js\" --write",
     "build": "rollup -c",
-    "prebuild": "rimraf dist"
+    "prebuild": "rimraf dist",
+    "storybook": "start-storybook -p 6006",
+    "storybook:build": "build-storybook"
   },
   "prettier": "prettier-config-standard",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gsonly/css-react-spinners.git"
+    "url": "https://github.com/gsonly/css-react-spinners.git"
   },
   "keywords": [
     "react",
@@ -34,6 +36,13 @@
     "@babel/preset-react": "^7.12.10",
     "@rollup/plugin-babel": "^5.2.2",
     "@rollup/plugin-node-resolve": "^11.0.0",
+    "@storybook/addon-actions": "^6.1.11",
+    "@storybook/addon-essentials": "^6.1.11",
+    "@storybook/addon-links": "^6.1.11",
+    "@storybook/addons": "^6.1.11",
+    "@storybook/react": "^6.1.11",
+    "@storybook/theming": "^6.1.11",
+    "babel-loader": "^8.2.2",
     "eslint": "^7.15.0",
     "eslint-config-standard": "^16.0.2",
     "eslint-plugin-import": "^2.22.1",
@@ -45,6 +54,8 @@
     "prettier-config-standard": "^1.0.1",
     "prettier-eslint": "^12.0.0",
     "prettier-eslint-cli": "^5.0.0",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
     "rimraf": "^3.0.2",
     "rollup": "^2.34.2",
     "rollup-plugin-string": "^3.0.0",
@@ -63,5 +74,6 @@
   },
   "engines": {
     "node": ">=10"
-  }
+  },
+  "dependencies": {}
 }
