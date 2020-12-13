@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Ring renders correctly 1`] = `
+Array [
+  <style>
+    [object Object]
+  </style>,
+  <div
+    className="lds-dual-ring"
+  />,
+]
+`;
